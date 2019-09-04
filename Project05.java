@@ -151,13 +151,4 @@ public class Project05 {
 			System.out.printf("%-15s%8.2f%n", key,map.get(key));
 		}
 	}
-
-
 }
-
-
-
-
-
-
-
