@@ -1,0 +1,225 @@
+Initial Setup
+=============
+shortestDistances: empty
+PriorityQueue: (Columbus:0.0)
+
+After Iteration 0
+=================
+shortestDistances: {Columbus:0.0}
+PriorityQueue: (Chicago:0.5), (Miami:2.0)
+
+After Iteration 1
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}
+PriorityQueue: (Columbus,1.0), (StLouis:1.0), (NewYork:2.0), (Miami:2.0)， (Boston:2.5), (Denver:3.0), (Seattle:3.5)
+
+After Iteration 2
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}
+PriorityQueue: (StLouis:1.0), (NewYork:2.0), (Miami:2.0)， (Boston:2.5), (Denver:3.0), (Seattle:3.5)
+
+After Iteration 3
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}
+PriorityQueue: (Chicago:1.5), (NewYork:2.0), (Miami:2.0), (Atlanta:2.0), (Dallas:2.0), (Boston:2.5), (Denver:3.0), (Seattle:3.5)
+
+After Iteration 4
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}
+PriorityQueue: (NewYork:2.0), (Miami:2.0), (Atlanta:2.0), (Dallas:2.0), (Boston:2.5), (Denver:3.0), (Seattle:3.5)
+
+After Iteration 5
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}
+PriorityQueue: (Miami:2.0), (Atlanta:2.0), (Dallas:2.0), (Boston:2.5), (Boston:2.5), (Denver:3.0), (Seattle:3.5), (Chicago:3.5)
+
+After Iteration 6
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}
+PriorityQueue: (Atlanta:2.0), (Dallas:2.0), (Boston:2.5), (Boston:2.5), (Denver:3.0), (Atlanta:3.0), (Seattle:3.5), (Chicago:3.5), (Columbus:4.0), (Dallas:4.0)
+
+After Iteration 7
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}
+PriorityQueue: (Dallas:2.0), (Boston:2.5), (Boston:2.5), (Denver:3.0), (Atlanta:3.0), (Miami:3.0), (StLouis:3.0), (Seattle:3.5), (Chicago:3.5), (Dallas:3.5), (Columbus:4.0), (Dallas:4.0)
+
+After Iteration 8
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}
+PriorityQueue: (Boston:2.5), (Boston:2.5), (Denver:3.0), (Atlanta:3.0), (Miami:3.0), (StLouis:3.0), (StLouis:3.0), (Seattle:3.5), (Chicago:3.5), (Dallas:3.5), (Atlanta:3.5), (Columbus:4.0), (Dallas:4.0), (Miami:4.0), (LosAngeles:4.5)
+
+After Iteration 9
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}
+PriorityQueue: (Boston:2.5), (Denver:3.0), (Atlanta:3.0), (Miami:3.0), (StLouis:3.0), (StLouis:3.0), (NewYork:3.0), (Seattle:3.5), (Chicago:3.5), (Dallas:3.5), (Atlanta:3.5), (Columbus:4.0), (Dallas:4.0), (Miami:4.0), (LosAngeles:4.5), (Chicago:4.5)
+
+After Iteration 10
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}
+PriorityQueue: (Denver:3.0), (Atlanta:3.0), (Miami:3.0), (StLouis:3.0), (StLouis:3.0), (NewYork:3.0), (Seattle:3.5), (Chicago:3.5), (Dallas:3.5), (Atlanta:3.5), (Columbus:4.0), (Dallas:4.0), (Miami:4.0), (LosAngeles:4.5), (Chicago:4.5)
+
+After Iteration 11
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}
+PriorityQueue: (Atlanta:3.0), (Miami:3.0), (StLouis:3.0), (StLouis:3.0), (NewYork:3.0), (Seattle:3.5), (Chicago:3.5), (Dallas:3.5), (Atlanta:3.5), (Columbus:4.0), (Dallas:4.0), (Miami:4.0), (LasVegas:4.0), (LosAngeles:4.5), (Chicago:4.5), (SanFrancisco:5.0), (Seattle:5.0), (Chicago:5.5)
+
+After Iteration 12
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}
+PriorityQueue: (Miami:3.0), (StLouis:3.0), (StLouis:3.0), (NewYork:3.0), (Seattle:3.5), (Chicago:3.5), (Dallas:3.5), (Atlanta:3.5), (Columbus:4.0), (Dallas:4.0), (Miami:4.0), (LasVegas:4.0), (LosAngeles:4.5), (Chicago:4.5), (SanFrancisco:5.0), (Seattle:5.0), (Chicago:5.5)
+
+After Iteration 13
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}
+PriorityQueue: (StLouis:3.0), (StLouis:3.0), (NewYork:3.0), (Seattle:3.5), (Chicago:3.5), (Dallas:3.5), (Atlanta:3.5), (Columbus:4.0), (Dallas:4.0), (Miami:4.0), (LasVegas:4.0), (LosAngeles:4.5), (Chicago:4.5), (SanFrancisco:5.0), (Seattle:5.0), (Chicago:5.5)
+
+After Iteration 14
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}
+PriorityQueue: (StLouis:3.0), (NewYork:3.0), (Seattle:3.5), (Chicago:3.5), (Dallas:3.5), (Atlanta:3.5), (Columbus:4.0), (Dallas:4.0), (Miami:4.0), (LasVegas:4.0), (LosAngeles:4.5), (Chicago:4.5), (SanFrancisco:5.0), (Seattle:5.0), (Chicago:5.5)
+
+After Iteration 15
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}
+PriorityQueue: (NewYork:3.0), (Seattle:3.5), (Chicago:3.5), (Dallas:3.5), (Atlanta:3.5), (Columbus:4.0), (Dallas:4.0), (Miami:4.0), (LasVegas:4.0), (LosAngeles:4.5), (Chicago:4.5), (SanFrancisco:5.0), (Seattle:5.0), (Chicago:5.5)
+
+After Iteration 16
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}
+PriorityQueue: (Seattle:3.5), (Chicago:3.5), (Dallas:3.5), (Atlanta:3.5), (Columbus:4.0), (Dallas:4.0), (Miami:4.0), (LasVegas:4.0), (LosAngeles:4.5), (Chicago:4.5), (SanFrancisco:5.0), (Seattle:5.0), (Chicago:5.5)
+
+After Iteration 17
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}
+PriorityQueue: (Chicago:3.5), (Dallas:3.5), (Atlanta:3.5), (Columbus:4.0), (Dallas:4.0), (Miami:4.0), (LasVegas:4.0), (LosAngeles:4.5), (Chicago:4.5), (SanFrancisco:5.0), (Seattle:5.0), (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (Chicago:6.5)
+
+After Iteration 18
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}
+PriorityQueue: (Dallas:3.5), (Atlanta:3.5), (Columbus:4.0), (Dallas:4.0), (Miami:4.0), (LasVegas:4.0), (LosAngeles:4.5), (Chicago:4.5), (SanFrancisco:5.0), (Seattle:5.0), (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (Chicago:6.5)
+
+After Iteration 19
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}
+PriorityQueue: (Atlanta:3.5), (Columbus:4.0), (Dallas:4.0), (Miami:4.0), (LasVegas:4.0), (LosAngeles:4.5), (Chicago:4.5), (SanFrancisco:5.0), (Seattle:5.0), (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (Chicago:6.5)
+
+After Iteration 20
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}
+PriorityQueue: (Columbus:4.0), (Dallas:4.0), (Miami:4.0), (LasVegas:4.0), (LosAngeles:4.5), (Chicago:4.5), (SanFrancisco:5.0), (Seattle:5.0), (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (Chicago:6.5)
+
+After Iteration 21
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}
+PriorityQueue: (Dallas:4.0), (Miami:4.0), (LasVegas:4.0), (LosAngeles:4.5), (Chicago:4.5), (SanFrancisco:5.0), (Seattle:5.0), (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (Chicago:6.5)
+
+After Iteration 22
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}
+PriorityQueue: (Miami:4.0), (LasVegas:4.0), (LosAngeles:4.5), (Chicago:4.5), (SanFrancisco:5.0), (Seattle:5.0), (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (Chicago:6.5)
+
+After Iteration 23
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}
+PriorityQueue: (LasVegas:4.0), (LosAngeles:4.5), (Chicago:4.5), (SanFrancisco:5.0), (Seattle:5.0), (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (Chicago:6.5)
+
+After Iteration 24
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}
+PriorityQueue: (LosAngeles:4.5), (Chicago:4.5), (LosAngeles:4.5), (SanFrancisco:5.0), (Seattle:5.0), (SanFrancisco:5.0), (Denver:5.0), (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (Chicago:6.5)
+
+After Iteration 25
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}
+PriorityQueue: (Chicago:4.5), (LosAngeles:4.5), (SanFrancisco:5.0), (Seattle:5.0), (SanFrancisco:5.0), (Denver:5.0), (LasVegas:5.0), (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (SanFrancisco:5.5), (Chicago:6.5), (Dallas:7.0)
+
+After Iteration 26
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}
+PriorityQueue: (LosAngeles:4.5), (SanFrancisco:5.0), (Seattle:5.0), (SanFrancisco:5.0), (Denver:5.0), (LasVegas:5.0), (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (SanFrancisco:5.5), (Chicago:6.5), (Dallas:7.0)
+
+After Iteration 27
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}
+PriorityQueue: (SanFrancisco:5.0), (Seattle:5.0), (SanFrancisco:5.0), (Denver:5.0), (LasVegas:5.0), (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (SanFrancisco:5.5), (Chicago:6.5), (Dallas:7.0)
+
+After Iteration 28
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}, {SanFrancisco:5.0}
+PriorityQueue: (Seattle:5.0), (SanFrancisco:5.0), (Denver:5.0), (LasVegas:5.0), (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (SanFrancisco:5.5), (LosAngeles:6.0), (LasVegas:6.0), (Chicago:6.5), (Dallas:7.0), (Seattle:7.0), (Denver:7.0)
+
+After Iteration 29
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}, {SanFrancisco:5.0}
+PriorityQueue: (SanFrancisco:5.0), (Denver:5.0), (LasVegas:5.0), (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (SanFrancisco:5.5), (LosAngeles:6.0), (LasVegas:6.0), (Chicago:6.5), (Dallas:7.0), (Seattle:7.0), (Denver:7.0)
+
+After Iteration 30
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}, {SanFrancisco:5.0}
+PriorityQueue: (Denver:5.0), (LasVegas:5.0), (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (SanFrancisco:5.5), (LosAngeles:6.0), (LasVegas:6.0), (Chicago:6.5), (Dallas:7.0), (Seattle:7.0), (Denver:7.0)
+
+After Iteration 31
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}, {SanFrancisco:5.0}
+PriorityQueue: (LasVegas:5.0), (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (SanFrancisco:5.5), (LosAngeles:6.0), (LasVegas:6.0), (Chicago:6.5), (Dallas:7.0), (Seattle:7.0), (Denver:7.0)
+
+After Iteration 32
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}, {SanFrancisco:5.0}
+PriorityQueue: (Chicago:5.5), (SanFrancisco:5.5), (Denver:5.5), (SanFrancisco:5.5), (LosAngeles:6.0), (LasVegas:6.0), (Chicago:6.5), (Dallas:7.0), (Seattle:7.0), (Denver:7.0)
+
+After Iteration 33
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}, {SanFrancisco:5.0}
+PriorityQueue: (SanFrancisco:5.5), (Denver:5.5), (SanFrancisco:5.5), (LosAngeles:6.0), (LasVegas:6.0), (Chicago:6.5), (Dallas:7.0), (Seattle:7.0), (Denver:7.0)
+
+After Iteration 34
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}, {SanFrancisco:5.0}
+PriorityQueue: (Denver:5.5), (SanFrancisco:5.5), (LosAngeles:6.0), (LasVegas:6.0), (Chicago:6.5), (Dallas:7.0), (Seattle:7.0), (Denver:7.0)
+
+After Iteration 35
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}, {SanFrancisco:5.0}
+PriorityQueue: (SanFrancisco:5.5), (LosAngeles:6.0), (LasVegas:6.0), (Chicago:6.5), (Dallas:7.0), (Seattle:7.0), (Denver:7.0)
+
+After Iteration 36
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}, {SanFrancisco:5.0}
+PriorityQueue: (LosAngeles:6.0), (LasVegas:6.0), (Chicago:6.5), (Dallas:7.0), (Seattle:7.0), (Denver:7.0)
+
+After Iteration 37
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}, {SanFrancisco:5.0}
+PriorityQueue: (LasVegas:6.0), (Chicago:6.5), (Dallas:7.0), (Seattle:7.0), (Denver:7.0)
+
+After Iteration 38
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}, {SanFrancisco:5.0}
+PriorityQueue: (Chicago:6.5), (Dallas:7.0), (Seattle:7.0), (Denver:7.0)
+
+After Iteration 39
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}, {SanFrancisco:5.0}
+PriorityQueue: (Dallas:7.0), (Seattle:7.0), (Denver:7.0)
+
+After Iteration 40
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}, {SanFrancisco:5.0}
+PriorityQueue: (Seattle:7.0), (Denver:7.0)
+
+After Iteration 41
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}, {SanFrancisco:5.0}
+PriorityQueue: (Denver:7.0)
+
+After Iteration 42
+=================
+shortestDistances: {Columbus:0.0}, {Chicago:0.5}, {StLouis:1.0}, {NewYork:2.0}, {Miami:2.0}, {Atlanta:2.0}, {Dallas:2.0}, {Boston:2.5}, {Denver:3.0}, {Seattle:3.5}, {LasVegas:4.0}, {LosAngeles:4.5}, {SanFrancisco:5.0}
+PriorityQueue: Empty
+
+
+
+
+
+
